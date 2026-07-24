@@ -4,7 +4,7 @@
     }
     strong{
         color: #d84315;
-    }    
+    }
     .shop-box{
         background-color: #fff3e0;
     }
@@ -42,13 +42,16 @@
 	top: 80px;
 	left: 30px;
 	color: #ffffff;
-	text-shadow: 0px 5px 10px #000000;
-	background-color: rgba(243, 153, 49, 0.2);
-}
+    background-color: rgba(0, 0, 0, 0.3);}
+
+
 header{
      background-color:#EAA443
     }
 
+    .catch h1 {
+    font-family: "Kaisei Decol", serif;
+}
     ul{
     padding-left: 0;
     line-height: 1.5;
@@ -142,7 +145,16 @@ nav{
 
 
 
+a:link {
+    color: #d84315;
+}
+a:visited {
+    color: #d84315;
+}
 
+a:hover {
+    color: #ffd700;
+}
 ol li{
     display: inline;
 }
