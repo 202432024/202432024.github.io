@@ -1,0 +1,184 @@
+@charset "utf-8";
+    header h1{
+        background-color: #ffa500;
+    }
+    strong{
+        color: #d84315;
+    }
+    .shop-box{
+        background-color: #fff3e0;
+    }
+    .day{
+        color: #d84315;
+        font-weight:bold;
+    }
+   body{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: left;
+    background-color: antiquewhite;
+   }
+   article{
+    position: relative;
+    clear: both;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+   }
+
+   .catch{
+    position:absolute;
+    top:20px;
+    left: 30px;
+    color: #fff3e0;
+   }
+   h2{
+    font-size: 120%;
+    border-bottom: 5px double #d84315;
+   }
+   .catch{
+	position: absolute;
+	top: 80px;
+	left: 30px;
+	color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);}
+
+
+header{
+     background-color:#EAA443
+    }
+
+    .catch h1 {
+    font-family: "Kaisei Decol", serif;
+}
+    ul{
+    padding-left: 0;
+    line-height: 1.5;
+    list-style: none;
+}
+ul time{
+	background-color: #999999;
+	border-radius: 10px;
+	color: #ffffff;
+	font-size: 90%;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+    footer{
+        text-align: center;
+        background-color: #999999;
+    }
+h2{
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+nav li{
+    display: inline;
+	padding-left: 10px;
+	padding-right: 12px;
+	border-right: 1px solid red;
+}
+    nav{
+        float: right;
+        margin-top: 75px;
+    }
+
+.shop-box img{
+    float:left;
+}
+
+.shop-boximg{
+    width:300px;
+}
+
+.shop-box img{
+    height:200px;
+}
+
+.shop-box-text{
+    clear:right;
+}
+
+.sub-h1{
+	padding-top: 5px;
+	padding-left: 10px;
+	border-left: 15px solid #EAA443;
+}
+
+.point-list{
+	list-style-image: url(../image/listimage.png);
+    margin-left: 30px;
+	font-weight: bold;
+}
+
+.point-img{
+	box-shadow: 0px 0px 10px 3px #aaaaaa;
+	border-radius: 10px;
+    float: right;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.sentou{
+	clear: both;
+	text-align: right;
+}
+
+main{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+nav{
+    padding:15px;
+    text-align:center;
+}
+
+
+
+a:link {
+    color: #d84315;
+}
+a:visited {
+    color: #d84315;
+}
+
+a:hover {
+    color: #ffd700;
+}
+ol li{
+    display: inline;
+}
+
+nav ul a{
+    text-decoration: none;
+    color:#d84315;
+}
+
+nav ul a:hover{
+    color: #ffd700;
+}
+
+nav ul a:active{
+    color: #fff3e0;
+}
+@media (max-width: 959px){
+    .shop-box{
+        float:none;
+        width:100%;
+        height:auto;
+    }
+
+    nav ul{
+        display:block;
+    }
+}
